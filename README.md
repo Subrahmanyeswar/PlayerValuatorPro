@@ -167,8 +167,8 @@ print(response.json())
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@YOUR_USERNAME]https://github.com/Subrahmanyeswar
-- LinkedIn: [Your Profile]www.linkedin.com/in/subrahmanyeswar-kolluru-914694293
+- GitHub: https://github.com/Subrahmanyeswar
+- LinkedIn: www.linkedin.com/in/subrahmanyeswar-kolluru-914694293
 
 ## 📄 License
 
@@ -184,7 +184,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ and ⚽ by [Your Name]**
+**Made with ❤️ and ⚽ by Subrahmanyeswar Kolluru**
 ```
 
 #### **C) Create `requirements.txt` file**
@@ -205,4 +205,5 @@ tensorflow==2.13.0
 keras==2.13.1
 seaborn==0.12.2
 matplotlib==3.7.2
+
 
