@@ -41,8 +41,11 @@ Advanced AI-Powered Football Player Valuation Platform using Machine Learning
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/PlayerValuatorPro.git
+git clone [https://github.com/Subrahmanyeswar/PlayerValuatorPro.git](https://github.com/Subrahmanyeswar/PlayerValuatorPro.git)
 cd PlayerValuatorPro
+
+
+
 ```
 
 2. **Create virtual environment**
@@ -205,5 +208,6 @@ tensorflow==2.13.0
 keras==2.13.1
 seaborn==0.12.2
 matplotlib==3.7.2
+
 
 
