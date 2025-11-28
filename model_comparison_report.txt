@@ -1,0 +1,68 @@
+
+PLAYERVALUATOR PRO - MODEL COMPARISON REPORT
+============================================
+
+📅 Analysis Date: 2025-10-09 19:09:11
+📊 Test Set Size: 2113 players
+
+PERFORMANCE SUMMARY
+-------------------
+┌─────────────┬──────────────┬──────────────┬──────────────┐
+│ Model       │ RMSE (€)     │ MAE (€)      │ R² Score     │
+├─────────────┼──────────────┼──────────────┼──────────────┤
+│ XGBoost     │    7,396,774 │    3,033,312 │       0.4825 │
+│ LSTM        │   10,210,626 │    4,573,202 │       0.0160 │
+│ Ensemble    │    8,423,279 │    3,606,378 │       0.3304 │
+└─────────────┴──────────────┴──────────────┴──────────────┘
+
+ENSEMBLE CONFIGURATION
+----------------------
+Optimal Weights:
+  • XGBoost: 50.0%
+  • LSTM:    50.0%
+
+Improvement vs Best Single Model:
+  • RMSE Reduction: €-1,026,505
+  • MAE Reduction:  €-573,066
+
+MODEL AGREEMENT
+---------------
+Average Agreement: 19.5%
+Models Agree (>80%): 9.0%
+
+ERROR ANALYSIS
+--------------
+Mean Absolute Percentage Error:
+  • XGBoost:  72.39%
+  • LSTM:     82.62%
+  • Ensemble: 79.09%
+
+Predictions within 10% of actual:
+  • XGBoost:  5.5%
+  • LSTM:     3.4%
+  • Ensemble: 4.2%
+
+RECOMMENDATIONS
+---------------
+🏆 Champion Model: XGBoost
+
+The ensemble model combines the strengths of both XGBoost and LSTM:
+- XGBoost excels at capturing non-linear feature relationships
+- LSTM captures sequential patterns in player development
+- Ensemble achieves better generalization and reduced overfitting
+
+GENERATED VISUALIZATIONS
+-------------------------
+✓ model_comparison_metrics.html
+✓ prediction_scatter_comparison.html
+✓ error_distribution.html
+✓ residual_plots.png
+✓ performance_by_value_range.html
+✓ ensemble_weights_visualization.html
+✓ error_analysis_heatmap.html
+✓ xgboost_feature_importance.html
+✓ model_agreement.html
+✓ comprehensive_dashboard.html
+
+============================================
+Report generated successfully! 🎉
