@@ -18,7 +18,7 @@ Advanced AI-Powered Football Player Valuation Platform using Machine Learning
 ## 📸 Screenshots
 
 ### Home Dashboard
-![Home](screenshots/home.png)
+![Home Dashboard](screenshots/home.png)
 
 ### AI Predictor
 ![Predictor](screenshots/predictor.png)
@@ -208,6 +208,7 @@ tensorflow==2.13.0
 keras==2.13.1
 seaborn==0.12.2
 matplotlib==3.7.2
+
 
 
 
