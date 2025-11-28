@@ -167,8 +167,8 @@ print(response.json())
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your Profile](https://linkedin.com/in/YOUR_PROFILE)
+- GitHub: [@YOUR_USERNAME]https://github.com/Subrahmanyeswar
+- LinkedIn: [Your Profile]www.linkedin.com/in/subrahmanyeswar-kolluru-914694293
 
 ## 📄 License
 
@@ -205,3 +205,4 @@ tensorflow==2.13.0
 keras==2.13.1
 seaborn==0.12.2
 matplotlib==3.7.2
+
