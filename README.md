@@ -189,27 +189,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ and ⚽ by Subrahmanyeswar Kolluru**
 ```
-
-#### **C) Create `requirements.txt` file**
-```
-streamlit==1.28.0
-pandas==2.1.0
-numpy==1.24.3
-plotly==5.17.0
-scikit-learn==1.3.0
-xgboost==2.0.0
-fastapi==0.103.0
-uvicorn==0.23.2
-pydantic==2.3.0
-joblib==1.3.2
-requests==2.31.0
-streamlit-option-menu==0.3.6
-tensorflow==2.13.0
-keras==2.13.1
-seaborn==0.12.2
-matplotlib==3.7.2
-
-
-
-
-
